@@ -1,0 +1,30 @@
+{
+  "name": "unico-skill-gov-presentation",
+  "version": "1.0.0",
+  "description": "Apresentação Unico Skill Gov — Benefício Educação Setor Público (Remotion)",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render ConcorreAI out/unico-skill-gov.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.286",
+    "@remotion/google-fonts": "4.0.286",
+    "@remotion/motion-blur": "4.0.286",
+    "@remotion/transitions": "4.0.286",
+    "framer-motion": "^11.18.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.286"
+  },
+  "devDependencies": {
+    "@remotion/tailwind": "^4.0.286",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
